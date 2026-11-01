@@ -12,9 +12,9 @@ python3 -m venv /var/www/mikiri-captcha/venv
 ```bash
 cd /var/www/
 git clone https://github.com/mikiri-waf/mikiri-captcha
-mkdir -p /var/log/mikiri-waf/captcha
-chmod -R 0750 /var/log/mikiri-waf/captcha
-chown -R www-data:www-data /var/log/mikiri-waf/captcha
+mkdir -p /var/log/mikiri/captcha
+chmod -R 0750 /var/log/mikiri/captcha
+chown -R www-data:www-data /var/log/mikiri/captcha
 cp /var/www/mikiri-captcha/misc/mikiri-captcha /etc/logrotate.d/
 cp /var/www/mikiri-captcha/misc/mikiri-captcha.service /lib/systemd/system/
 ```
@@ -30,7 +30,7 @@ systemctl start mikiri-captcha
 
 ```bash
 systemctl status mikiri-captcha
-cat /var/log/mikiri-waf/captcha/api.log
+cat /var/log/mikiri/captcha/api.log
 netstat -nlp | grep 8080
 ```
 

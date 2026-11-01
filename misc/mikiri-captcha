@@ -1,4 +1,4 @@
-/var/log/mikiri-waf/captcha/*.log
+/var/log/mikiri/captcha/*.log
 {
   size 20M
   create

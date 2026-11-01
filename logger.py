@@ -12,7 +12,7 @@ import logging
 # Log settings
 ##
 
-logf = '/var/log/mikiri-waf/captcha/api.log'
+logf = '/var/log/mikiri/captcha/api.log'
 log = logging.getLogger(__name__)
 log.setLevel(logging.INFO)
 # Gunicorn sends root ERROR records to error.log. Propagating would store
