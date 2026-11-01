@@ -17,7 +17,7 @@ workers = cpu_count() + 1
 
 # Logging options
 loglevel = 'critical'
-logconfig = '/var/www/mikiri-waf-captcha/logging.conf'
+logconfig = '/var/www/mikiri-captcha/logging.conf'
 
 # Logging
 log.info('START')

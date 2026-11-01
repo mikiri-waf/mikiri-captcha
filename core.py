@@ -24,7 +24,7 @@ from memcache import new_pool
 
 ##
 
-memc_prefix = 'mikiri-waf-captcha_'
+memc_prefix = 'mikiri-captcha_'
 hdr_cpass_complete = {'x-waf-captcha-challenge': 'complete'}
 hdr_cpass_progress = {'x-waf-captcha-challenge': 'progress'}
 
