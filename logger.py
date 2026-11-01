@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 """
-Mikiri WAF API
+Mikiri CAPTCHA
 Copyright (c) Mikiri Security, LLC
 Author: Romanov R.
 """

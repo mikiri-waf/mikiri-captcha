@@ -7,7 +7,7 @@ python3 -m venv /var/www/mikiri-waf-captcha/venv
 /var/www/mikiri-waf-captcha/venv/bin/python3 -m pip install -r /var/www/mikiri-waf-captcha/requirements.txt
 ```
 
-2. Download Mikiri WAF CAPTCHA from the GitHub repository and configure it:
+2. Download Mikiri CAPTCHA from the GitHub repository and configure it:
 
 ```bash
 cd /var/www/

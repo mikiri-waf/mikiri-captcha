@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 
 """
-Mikiri WAF CAPTCHA - tests
+Mikiri CAPTCHA - tests
 Copyright (c) Mikiri Security, LLC
 
 Drives the CAPTCHA ASGI application directly, with an in-memory stand-in for
-the memcached, and checks the contract Mikiri WAF Filter relies on: every
+the memcached, and checks the contract Filter relies on: every
 answer of a working CAPTCHA carries the x-waf-captcha-challenge header, any
 proxied path is answered with the CAPTCHA page, and a broken CAPTCHA answers
 without the service header so that the filter reports it.

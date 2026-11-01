@@ -1,5 +1,5 @@
 [Unit]
-Description=Mikiri WAF CAPTCHA
+Description=Mikiri CAPTCHA
 After=multi-user.target
 
 [Service]

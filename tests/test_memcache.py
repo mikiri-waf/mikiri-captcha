@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 """
-Mikiri WAF CAPTCHA - memcached pool tests
+Mikiri CAPTCHA - memcached pool tests
 
 The pool has to hide a dead socket (the failure that dropped every other
 captcha image), wait instead of failing when every connection is busy, and
